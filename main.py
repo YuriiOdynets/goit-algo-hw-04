@@ -1,6 +1,8 @@
+#Import of data processing and commands modules
 from data import parse_input
 from processing import add_contact,change_number, show_phone, show_all
 
+#Function that contains main commands, greeting, exit logic and responce.
 def main():
     contacts = {}
     print('Welcome to the assistant bot!')
